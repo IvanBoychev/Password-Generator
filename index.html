@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="hero-text">
+            <h1>Generate a <br><span id="heading-green">random password</span></h1>
+            <p>Never use an insecured password again.</p>
+        </div>
+        <button onclick="generate()">Generate passwords</button>
+        <hr>
+        <div id="passwords">
+            <div id="password1" class="password-field"></div>
+            <div id="password2" class="password-field"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

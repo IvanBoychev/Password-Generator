@@ -1,0 +1,93 @@
+:root {
+    --green: #10B981;
+    --bgColorPassword: #273549;
+}
+
+body {
+    margin: 0;
+    background-color: #171f29;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.karla {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#container {
+    margin: 50px auto;
+    padding: 50px 50px;
+    min-height: 300px;
+    width: 500px;
+    background-color: #1f2937;
+}
+
+#hero-text {
+    margin-bottom: 50px;
+}
+
+#hero-text>h1 {
+    font-family: karla;
+    font-weight: 800;
+    font-size: 40px;
+    letter-spacing: -1px;
+    color: #FFF;
+}
+
+#hero-text>p {
+    font-family: inter;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+
+#heading-green {
+    color: var(--green);
+}
+
+button {
+    font-family: inter;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFF;
+    background-color: var(--green);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 15px;
+}
+
+hr {
+    background-color: #2F3E53;
+    height: 1px;
+    margin: 35px 0;
+    border: none;
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-around;
+}
+
+.password-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+    width: 210px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: var(--bgColorPassword);
+    color: var(--green);
+}
